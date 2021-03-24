@@ -18,11 +18,12 @@ print(first_name)
 print(last_name)
 print(age)
 
-"""
+""" multi-line comment here
 Print("Testing")
 Print("Testing")
 Print(Testing")
-"""
+""" #multi-line comment ends
+
 print("---------------------------")
 
 print("I will now rename the first_name variable")
@@ -40,7 +41,7 @@ print(first_name)
 print("---------------------------") #print("The End!")
 
 print("VARIABLES")
-#Casting
+#Casting - specify the data type
 x = int(3)
 y = str(3)
 z = float(3)
@@ -75,4 +76,28 @@ print(name_2)
 print(NAME_2)
 print(type(NAME_2))
 
+print("---------------------------")
 
+#variable names
+print("camelCase")
+print("PascalCase")
+print("snake_case")
+
+print("---------------------------")
+
+#Many values to multiple variables
+a, b, c = "apple", "banana", "cherry"
+print(a)
+print(b)
+print(c)
+#1 value to multiple variables
+x = y = z = "Lilac"
+print(x)
+print(y)
+print(z)
+#unpacking: many values to variables
+primary_colours = ["red", "yellow", "blue"]
+r, y, b = primary_colours
+print(r)
+print(y)
+print(b)
