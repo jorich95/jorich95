@@ -1,0 +1,28 @@
+#Test Automation University - Chapter 1
+
+"""
+Today I learned about variables, data types and formatting strings in , in particular the 'format function'. I can now successfully create a variable and print the outcome in the console using the format function to ensure clearer, more efficient code. See below
+"""
+
+#variables
+name = "Jo"
+first_name = "Jo"
+last_name = "Richards"
+age = 26
+school = "Sheffield Hallam University"
+work = "Rolls Royce"
+car = "fiat punto"
+status = "engaged"
+
+
+print("Welcome {}!".format(name))
+print("You are logged in as {} \n".format(name))
+
+
+print("Welcome {} {}!".format(first_name, last_name))
+print("You are logged in as {} {}".format(first_name, last_name))
+print("You are logged out as {} {} \n".format(first_name, last_name))
+
+print("Good evening {} {}, you are now connected! \n".format(first_name, last_name))
+
+print("Hello, my name is {} {} but I go by my nickname '{}' for short. I am {} years old and recently {}. I went to {} and after graduating, went to work at {}. I currently drive a {}".format(first_name, last_name, name, age, status, school, work, car))
