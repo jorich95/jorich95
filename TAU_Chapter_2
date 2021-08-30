@@ -1,0 +1,15 @@
+#Test Automation University - Chapter 2
+
+"""
+Today I learned about functions; what functions are, how to write and call a function including converting user input from a 'string' to an 'interger' using the 'input'  function.
+"""
+
+
+#example
+def addition():
+    a = int(input("Please enter a number"))
+    b = int(input("Now enter another number"))
+    print (a + b)
+    
+    
+addition()
