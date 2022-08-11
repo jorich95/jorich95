@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pizza App</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Pizza App</h2>
+        <main>
+        <form action="">
+        <section>
+            <label><input id="collection" type="radio" name="collection-delivery" value="collection" checked>Collection</label>
+            <label><input id="delivery" type="radio" name="collection-delivery" value="delivery">Delivery</label>
+        </section>
+        <section>
+        <h4>Step 1: Customise your pizza</h4>
+        <fieldset>
+            <legend>Choose your size</legend>
+            <label><input id="small-10-inch" type="radio" name="pizza-size" value="small-10-inch">Small</label>
+            <label><input id="medium-12-inch" type="radio" name="pizza-size" value="medium-12-inch">Medium</label>
+            <label><input id="large-14-inch" type="radio" name="pizza-size" value="large-14-inch">Large</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Chooose your sauce</legend>
+            <label><input type="radio" id="bbq" name="pizza-sauce" value="bbq">BBQ</label>
+            <label><input type="radio" id="tomato" name="pizza-sauce" value="tomato">Tomato</label>
+        </fieldset>
+       
+        <fieldset>
+            <legend>Choose your toppings</legend>
+            <input id="tomatoes" type="checkbox" name="pizza-toppings" value="tomatoes"><label for="tomatoes">Tomatoes</label>
+            <input id="onions" type="checkbox" name="pizza-toppings" value="onions"><label for="onions">Onions</label>
+            <input id="mushrooms" type="checkbox" name="pizza-toppings" value="mushrooms"><label for="mushrooms">Mushroooms</label>
+            <input id="olives" type="checkbox" name="pizza-toppings" value="olives"><label for="olives">Olives</label>
+            <input id="extra-cheese" type="checkbox" name="pizza-toppings" value="extra-cheese"><label for="extra-cheese">Extra cheese</label>
+            <input id="chicken" type="checkbox" name="pizza-toppings" value="chicken"><label for="chicken">Chicken</label>
+            <input id="beef-mince" type="checkbox" name="pizza-toppings" value="beef-mince"><label for="beef-mince">Beef mince</label>
+            <input id="pepperoni" type="checkbox" name="pizza-toppings" value="pepperoni"><label for="pepperoni">Pepperoni</label>
+            <input id="ham" type="checkbox" name="pizza-toppings" value="ham"><label for="ham">Ham</label>
+            <input id="tuna" type="checkbox" name="pizza-toppings" value="tuna"><label for="tuna">Tuna</label>
+            <input id="peppers" type="checkbox" name="pizza-toppings" value="peppers"><label for="peppers">Peppers</label>
+            <input id="sweetcorn" type="checkbox" name="pizza-toppings" value="sweetcorn"><label for="sweetcorn">Sweetcorn</label>
+            <input id="pineapple" type="checkbox" name="pizza-toppings" value="pineapple"><label for="pineapple">Pineapple</label>
+            <input id="rocket" type="checkbox" name="pizza-toppings"value="rocket"><label for="rcoket">Rocket</label>
+            <input id="jalepeno" type="checkbox" name="pizza-toppings" value="jalepeno"><label for="jalepeno">Jalepeno</label>
+            <input id="pesto" type="checkbox" name="pizza-toppings" value="pesto"><label for="pesto">Pesto</label>
+            <input id="sausage" type="checkbox" name="pizza-toppings" value="sausage"><label for="sausage">Sausage</label>
+        </fieldset>
+        </section>
+
+        <section>
+        <h4>Step 2: Enter your personal details</h4>
+        <fieldset>
+            <legend>Full name</legend></legend>
+            <input type="text" placeholder="First name" name="first-name" required>
+            <input type="text" placeholder="Last name" name="last-name" required>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Delivery address</legend>
+            <input type="text" placeholder="Address line 1" name="address-line-1" required>
+            <input type="text" placeholder="Address line 2" name="address-line-2">
+            <input type="text" placeholder="City" name="city" required>
+            <input type="text" placeholder="County" name="county" required>
+            <input type="text" placeholder="Postcode" name="postcode" required>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Contact details</legend>
+            <input type="text" placeholder="Phone number" name="phone-number" required><br>
+            <input type="text" placeholder="Email" name="email" required>
+        </fieldset>
+        </section>
+
+
+        <section>
+        <h4>Step 3: Select your payment method</h4>
+        <fieldset>
+            <legend>How would you like to pay?</legend>
+            <label><input id="card" type="radio" name="payment-type" value="card">Card</label>
+            <label><input id="cash" type="radio" name="payment-type" value="cash">Cash</label>
+        </fieldset>
+        </section>
+
+        <br>
+        <button type="submit">Place My Order</button>
+        </form>
+        </main>
+        <footer>
+            <p>Webpage designed by <a href="https://twitter.com/iamjorichards" target="_blank">Jo Richards</a></p>
+        </footer>
+    </body>
+</html>
