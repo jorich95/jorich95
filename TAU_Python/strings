@@ -1,0 +1,24 @@
+# Data Types: Strings
+
+name = "Jo Richards-Steele"
+type_of_car = "Rolls Royce"
+school = "Derby Moor"
+
+print (name + school)
+print(name + " " + school)
+print(name + " works at " + school)
+
+# Python string.format method
+# Put curly brackets at the points where you'd want to put variables
+# Then at the end quote add .format() with the variable names in the order they shouls appear in the string
+
+print("{} works at {} school".format(name, school))
+
+# Practice
+name = "Jan"
+print("{}, you are successfully logged in".format(name))
+
+greeting_am = "Good morning"
+greeting_pm = "Good evening"
+print("{} {}".format(greeting_am, name))
+print("{} {}".format(greeting_pm, name))
